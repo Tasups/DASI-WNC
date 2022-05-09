@@ -4,7 +4,8 @@ import About from './pages/About'
 import EventsAndVenues from './pages/EventsAndVenues'
 import GetInvolved from './pages/GetInvolved'
 import Home from './pages/Home'
-import Footer from './components/Footer.js'
+import NotFound from './pages/NotFound'
+import Footer from './components/Footer'
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path="/events&venues" element={<EventsAndVenues />} />
             <Route path="/getinvolved" element={<GetInvolved />} />
             <Route path="/" element={<Home />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
           </div>
         </div>

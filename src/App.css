@@ -120,3 +120,12 @@ li {
   justify-content: center;
   margin-top: 1rem;
 }
+
+/**********NOT FOUND ROUTE PAGE**********/
+
+.not-found {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
