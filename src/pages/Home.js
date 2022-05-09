@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
   return(
-    <div className="card">
+    <div className="home-container card">
       <ul>
         <li className="card-line-item">
           <h2>
