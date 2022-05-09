@@ -14,17 +14,19 @@
 
 body {
   background-color: var(--primary-darkmode);
+  color: var(--primary-darkmode-text);
 }
 
 li {
   list-style-type: none;
 }
 
+/***********NAVBAR COMPONENT***********/
+
 .navbar-wrapper {
   margin: 0 auto;
   min-height: 10vh;
   max-width: 80vw;
-  background-color: black;
 }
 
 .navbar-logo-wrapper {
@@ -52,8 +54,19 @@ li {
 .navbar-links {
   display: flex;
   justify-content: flex-end;
+  text-decoration: none;
+  color: var(--primary-darkmode-text);
 }
 
 .navbar-links li {
   margin: 1rem;
+}
+
+/**********APP BODY/CONTAINER FOR OTHER PAGES/COMPONENTS**********/
+
+.route-container{
+  margin: 0 auto;
+  min-height: 80vh;
+  max-width: 80vw;
+  background-color: pink;
 }
