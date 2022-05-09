@@ -15,6 +15,7 @@
 body {
   background-color: var(--primary-darkmode);
   color: var(--primary-darkmode-text);
+  font-family: var(--logotext);
 }
 
 li {
@@ -68,5 +69,54 @@ li {
   margin: 0 auto;
   min-height: 80vh;
   max-width: 80vw;
-  background-color: pink;
+  background-color: var(--primary-darkmode);
+}
+
+/**********PAGES CONTAINER**********/
+
+.pages-container {
+  
+}
+
+/**********CARD**********/
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 40vw;
+  max-width: 70%;
+  min-height: 20vh;
+  background-color: var(--primary-darkmode);
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.card-line-item {
+  margin-bottom: 1rem;
+}
+
+/**********FOOTER**********/
+
+.footer-wrapper {
+  margin: 0 auto;
+  min-height: 10vh;
+  max-width: 80vw;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: var(--primary-darkmode-text);
+  margin-left: 1rem;
+}
+
+.footer-memorial {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
