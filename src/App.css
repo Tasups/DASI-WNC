@@ -10,12 +10,13 @@
   --primary-darkmode-text: hsla(0, 100%, 100%, 0.9);
   
   --logotext: 'Open Sans', sans-serif;
+  --text: 'Tahoma', sans-serif;
 }
 
 body {
   background-color: var(--primary-darkmode);
   color: var(--primary-darkmode-text);
-  font-family: var(--logotext);
+  font-family: var(--text);
   line-height: 1.6;
 }
 

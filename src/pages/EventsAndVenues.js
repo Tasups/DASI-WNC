@@ -1,6 +1,14 @@
 import React from 'react'
+import acts from '../data/events'
+import season from '../data/date'
 
 const EventsAndVenues = () => {
+  
+  const date = season;
+  const events = acts;
+  
+  
+  
   return(
     <div className="events-and-venues card">
       <h2 className="about-headers">Events and Venues</h2>
@@ -10,15 +18,28 @@ const EventsAndVenues = () => {
         
       <h2 className="about-headers">Productions at Asheville Community Theater</h2>
         <h3>  
+        
           <ul>
-            <li>2018-2019 Season</li>
-            <li>Avenue Q, October 12-14</li>
-            <li>Snowbound, December 7-9</li>
-            <li>Footloose, February 15-17</li>
-            <li>Alice in Wonderland, April 12-14</li>
-            <li>Hands on a Hardbody, June 14-16</li>
-            <li>Rabbit Hole, August 16-18</li>
+          {date.map((date) => (
+            <li>
+              <span>{date.startDate}</span>
+              <span> - </span>
+              <span>{date.endDate}</span>
+              <span> Season</span>
+            </li>
+            ))
+          }
+            
+          {events.map((event) => (
+            <li>
+              <span>{event.playName}</span>
+              <span>, </span>
+              <span>{event.playDate}</span>
+            </li>
+            ))
+          }
           </ul>
+          
           <div className="act-shows">
             Friday and Saturday shows start at 7:30pm while Sunday matinee performances begin at 2:30pm.
             Tickets can be purchased through the ACT box office at 828-254-1320. 
@@ -54,7 +75,7 @@ const EventsAndVenues = () => {
               <li>special occasions</li>
             </ul>
           </h3>
-    </div>
+        </div>
     )
 }
 
