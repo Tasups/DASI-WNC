@@ -2,7 +2,7 @@ import React from 'react'
 
 const EventsAndVenues = () => {
   return(
-    <div className="card">
+    <div className="events-and-venues card">
       <h2 className="about-headers">Events and Venues</h2>
         <h3>
           DASI has described at many theaters and venues in WNC. We are portable, so we can take our equipment and provide AD at any theater that requests our services. We have a standing agreement with Asheville Community Theater (ACT) to describe the second weekend of Mainstage performances. ACT generously offers a complimentary ticket to the driver for a visually impaired person attending a DASI described performance. If there is an event not listed below that you would like to have described, contact the theater and ask them to provide AD through DASI. 
@@ -19,14 +19,12 @@ const EventsAndVenues = () => {
             <li>Hands on a Hardbody, June 14-16</li>
             <li>Rabbit Hole, August 16-18</li>
           </ul>
-            <br/>
+          <div className="act-shows">
             Friday and Saturday shows start at 7:30pm while Sunday matinee performances begin at 2:30pm.
-            <br/>
             Tickets can be purchased through the ACT box office at 828-254-1320. 
-            <br/>
             ACT will provide a complimentary ticket to the driver of anyone using DASI!
-            <br/>
             Other described performances will be listed here once they are confirmed with the theater.
+          </div>
         </h3>
         
         <h2 className="about-headers">DASI friendly venues</h2>

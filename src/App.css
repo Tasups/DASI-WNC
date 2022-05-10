@@ -16,6 +16,7 @@ body {
   background-color: var(--primary-darkmode);
   color: var(--primary-darkmode-text);
   font-family: var(--logotext);
+  line-height: 1.6;
 }
 
 li {
@@ -80,17 +81,22 @@ li {
 }
 
 /**********CARD**********/
-
+/*
 .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-width: 40vw;
-  max-width: 70%;
+  max-width: 90%;
   min-height: 20vh;
   background-color: var(--primary-darkmode);
   margin: 2rem auto;
+}
+*/
+
+.card {
+  margin-bottom: 2rem;
 }
 
 .card-line-item {
@@ -109,10 +115,20 @@ li {
   margin: 1rem;
 }
 
+/**********EVENTS AND VENUES**********/
+
+.act-shows{
+  margin-top: 2rem;
+}
+
 /**********GET INVOLVED**********/
 
 .get-involved-headers {
   margin: 1rem;
+}
+
+.getinvolved-contact {
+  display: block;
 }
 
 

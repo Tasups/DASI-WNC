@@ -19,8 +19,8 @@ const GetInvolved = () => {
         <h3>
           Contributions from the community and our sponsors help keep DASI blooming: DASI is a 501(c)3 non-profit organization and contributions of any size are always appreciated. Contributions help pay for equipment upkeep, promotional materials, and for training our describers. Checks, made payable to DASI, can be mailed to the DASI President.
         </h3>
-      <h2 style={{marginTop: "2rem", marginBottom: "1rem"}}>Contact</h2>
-        <h3>
+       <h2 style={{marginTop: "2rem", marginBottom: "1rem"}}>Contact</h2>
+         <h3>
           Jan Stanko, DASI President <br/>
           26 Greenleaf Circle <br/>
           Asheville, NC 28804 <br/>
