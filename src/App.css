@@ -148,7 +148,9 @@ li {
 
 .footer-list {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .footer-list a {
@@ -160,7 +162,7 @@ li {
 .footer-memorial {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 /**********NOT FOUND ROUTE PAGE**********/
