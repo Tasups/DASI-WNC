@@ -71,6 +71,34 @@ li {
   margin: 1rem;
 }
 
+.hamburger-nav {
+  display: none;
+}
+
+.nav-hamburger-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+/**********NAVBAR MEDIA QUERY**********/
+
+/* 576PX OR PHONE IN PORTRAIT MODE */
+@media only screen and (max-width: 576px) {
+  nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  .navbar-links {
+    display: none; 
+  }
+  .hamburger-nav {
+    display: inline;
+  }
+}
+
+
+
 /**********APP BODY/CONTAINER FOR OTHER PAGES/COMPONENTS**********/
 
 .route-container{
@@ -169,6 +197,7 @@ li {
   justify-content: center;
   margin-top: 1rem;
   text-align: center;
+  padding-bottom: 2rem;
 }
 
 /**********NOT FOUND ROUTE PAGE**********/
