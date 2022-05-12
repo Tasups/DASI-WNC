@@ -21,7 +21,7 @@ const EventsAndVenues = () => {
         
           <ul>
           {date.map((date) => (
-            <li>
+            <li key={date.startDate}>
               <span>{date.startDate}</span>
               <span> - </span>
               <span>{date.endDate}</span>
@@ -31,7 +31,7 @@ const EventsAndVenues = () => {
           }
             
           {events.map((event) => (
-            <li>
+            <li key={event.playName}>
               <span>{event.playName}</span>
               <span>, </span>
               <span>{event.playDate}</span>
