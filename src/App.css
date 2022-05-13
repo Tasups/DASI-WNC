@@ -32,6 +32,8 @@ li {
 /***********NAVBAR COMPONENT***********/
 
 .navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
   margin: 0 auto;
   min-height: 10vh;
   max-width: 80vw;
@@ -46,7 +48,7 @@ li {
 }
 
 .navbar-container {
-  margin: 0 4rem;
+  margin: 0;
   padding: 1rem 0;
   display: flex;
   align-items: center;
@@ -73,6 +75,7 @@ li {
 
 .hamburger-nav {
   display: none;
+  padding: 1rem 0;
 }
 
 .nav-hamburger-icon {
@@ -208,3 +211,38 @@ li {
   justify-content: center;
   align-items: center;
 }
+
+/*----------SIDEBAR DRAWER----------*/
+
+.side-drawer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  height: 100vh;
+  width: 70%;
+  background: var(--primary-grey);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 10;
+  transition: ease-in-out 200ms;
+}
+
+.sidebar-navlink-list {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+}
+
+.sidebar-navlink {
+  margin: 1rem;
+}
+

@@ -1,5 +1,10 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+
+import Sidebar from './Sidebar'
+import NavLinks from './NavLinks'
+import Backdrop from './Backdrop'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFan } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
@@ -40,7 +45,12 @@ const Navbar = () => {
         <button className="nav-hamburger-btn" type="button" onClick={toggleOpen}>
           <FontAwesomeIcon className="nav-hamburger-icon" icon={faBars} />
         </button>
-        {isOpen && <h1>MOBILE NAV OPEN</h1>}
+        
+        { isOpen && <Backdrop onClick={toggleOpen}/> }
+          <Sidebar show={isOpen} onClick={toggleOpen}>
+            <NavLinks />
+          </Sidebar>
+          
       </div>
     
     </nav>
