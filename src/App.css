@@ -71,7 +71,6 @@ li {
 
 .navbar-links {
   display: flex;
-  justify-content: flex-end;
   text-decoration: none;
   color: var(--primary-darkmode-text);
 }
@@ -275,4 +274,3 @@ li {
   text-decoration: none;
   color: var(--primary-darkmode-text);
 }
-
