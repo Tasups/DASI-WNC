@@ -25,6 +25,13 @@ body {
   line-height: 1.6;
 }
 
+/* 576PX OR PHONE IN PORTRAIT MODE */
+@media only screen and (max-width: 576px) {
+  body {
+    font-size: 0.75rem;
+  }
+}
+
 li {
   list-style-type: none;
 }
@@ -195,12 +202,32 @@ li {
   margin-left: 1rem;
 }
 
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
 .footer-memorial {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
   text-align: center;
   padding-bottom: 2rem;
+}
+
+/* 576PX OR PHONE IN PORTRAIT MODE */
+@media only screen and (max-width: 576px) {
+  .footer-wrapper {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  
+  .footer-contact {
+    flex-direction: column;
+  }
+  
 }
 
 /**********NOT FOUND ROUTE PAGE**********/
@@ -243,6 +270,9 @@ li {
 }
 
 .sidebar-navlink {
-  margin: 1rem;
+  font-size: 1.25rem;
+  margin: 4rem;
+  text-decoration: none;
+  color: var(--primary-darkmode-text);
 }
 

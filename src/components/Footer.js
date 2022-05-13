@@ -5,13 +5,13 @@ const Footer = () => {
     <div className="footer-wrapper">
       <div className="footer-container">
         <ul className="footer-list">
-          <li>
-            <h3>President - Jan Stanko 
-              <a href="mailto:jankopluto@charter.net">jankopluto@charter.net</a>
-            </h3>
+          <li className="footer-contact">
+            <h3>President - Jan Stanko </h3>
+            <h3><a href="mailto:jankopluto@charter.net">jankopluto@charter.net</a></h3>
           </li>
-          <li>
+          <li className="footer-contact">
             <h3>Webdeveloper - Jason Whisnant 
+            <span></span>
               <a href="mailto:tasups@gmail.com"> tasups@gmail.com</a>
             </h3>
           </li>
