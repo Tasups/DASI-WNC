@@ -7,8 +7,6 @@ const EventsAndVenues = () => {
   const date = season;
   const events = acts;
   
-  
-  
   return(
     <div className="events-and-venues card">
       <h2 className="about-headers">Events and Venues</h2>
@@ -18,7 +16,7 @@ const EventsAndVenues = () => {
         
       <h2 className="about-headers">Productions at Asheville Community Theater</h2>
         <h3>  
-        
+          Confirmed Shows for Description
           <ul>
           {date.map((date) => (
             <li key={date.startDate}>
