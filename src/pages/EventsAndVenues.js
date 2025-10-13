@@ -30,6 +30,11 @@ const EventsAndVenues = () => {
       <h2 className="about-headers">
         Productions at Asheville Community Theater
       </h2>
+      <h2>
+        <a href="https://ashevilletheatre.org/">
+          https://ashevilletheatre.org/
+        </a>
+      </h2>
       <h3>
         Confirmed Shows for Description
         <ul>
@@ -65,11 +70,6 @@ const EventsAndVenues = () => {
                 <br></br>
                 <span className="event-info">{event.contentAwareness}</span>
                 <br></br>
-                <span className="event-info-header">
-                  Asheville Community Theater:{" "}
-                </span>
-                <br></br>
-                <span className="event-info">{event.theaterLink}</span>
               </li>
             </div>
           ))}
