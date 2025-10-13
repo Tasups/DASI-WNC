@@ -80,13 +80,11 @@ li {
 }
 
 .hamburger-nav {
-  background-color: #121212;
   display: none;
   padding: 1rem 0;
 }
 
 .nav-hamburger-icon {
-  color: var(--primary-darkmode-text);
   width: 3rem;
   height: 3rem;
 }
@@ -105,8 +103,6 @@ li {
   }
   .hamburger-nav {
     display: inline;
-    background-color: #121212;
-    color: var(--primary-darkmode-text);
   }
 }
 
