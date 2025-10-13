@@ -164,6 +164,18 @@ li {
   margin-top: 2rem;
 }
 
+.event-title{
+  font-size: larger;
+}
+
+.event-info-header{
+    text-decoration-line: underline;
+}
+
+.event-info{
+  padding-top: 2rem;
+}
+
 /**********GET INVOLVED**********/
 
 .get-involved-headers {

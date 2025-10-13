@@ -39,23 +39,29 @@ const EventsAndVenues = () => {
           {events.map((event) => (
             <div className="card">
               <li className="about-headers" key={event.playName}>
-                <span>{event.playName}</span>
+                <span className="event-title">{event.playName}</span>
                 <span>, </span>
-                <span>{event.playDate}</span>
+                <span className="event-title">{event.playDate}</span>
                 <br></br>
-                <span>Description: </span>
+                <span className="event-info-header">Description: </span>
                 <br></br>
-                <span>{event.description}</span>
+                <span className="event-info">{event.description}</span>
                 <br></br>
-                <span>Run Time: {event.runTime}</span>
+                <span className="event-info-header">Run Time: </span>
                 <br></br>
-                <span>Accessibility: </span>
+                <span className="event-info">{event.runTime}</span>
                 <br></br>
-                <span>{event.accessibility}</span>
+                <span className="event-info-header">Accessibility: </span>
                 <br></br>
-                <span>Content Awareness: </span>
+                <span className="event-info">{event.accessibility}</span>
                 <br></br>
-                <span>{event.contentAwareness}</span>
+                <span className="event-info-header">Content Awareness: </span>
+                <br></br>
+                <span className="event-info">{event.contentAwareness}</span>
+                <br></br>
+                <span className="event-info-header">Asheville Community Theater: </span>
+                <br></br>
+                <span className="event-info">{event.theaterLink}</span>
               </li>
             </div>
           ))}
