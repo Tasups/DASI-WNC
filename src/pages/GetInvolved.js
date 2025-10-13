@@ -21,11 +21,10 @@ const GetInvolved = () => {
         </h3>
        <h2 style={{marginTop: "2rem", marginBottom: "1rem"}} className="get-involved-headers">Contact</h2>
          <h3>
-          Jan Stanko, DASI President <br/>
+          Wayne Stanko, DASI President <br/>
           26 Greenleaf Circle <br/>
           Asheville, NC 28804 <br/>
-          828-253-8781 <br/>
-          jankopluto@charter.net
+          wstanko@charter.net
         </h3>
     </div>
       

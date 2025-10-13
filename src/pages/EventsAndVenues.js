@@ -21,6 +21,12 @@ const EventsAndVenues = () => {
         described, contact the theater and ask them to provide AD through DASI.
       </h3>
 
+      <h3>
+        "Pre-Show description will be available on the website by noon the day
+        before the first described performance of any production. Description
+        can also be emailed upon request."
+      </h3>
+
       <h2 className="about-headers">
         Productions at Asheville Community Theater
       </h2>
@@ -59,7 +65,9 @@ const EventsAndVenues = () => {
                 <br></br>
                 <span className="event-info">{event.contentAwareness}</span>
                 <br></br>
-                <span className="event-info-header">Asheville Community Theater: </span>
+                <span className="event-info-header">
+                  Asheville Community Theater:{" "}
+                </span>
                 <br></br>
                 <span className="event-info">{event.theaterLink}</span>
               </li>
