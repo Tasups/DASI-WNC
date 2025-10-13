@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="footer-container">
         <ul className="footer-list">
           <li className="footer-contact">
-            <h3>President - Jan Stanko </h3>
-            <h3><a href="mailto:jankopluto@charter.net">jankopluto@charter.net</a></h3>
+            <h3>President - Wayne Stanko </h3>
+            <h3><a href="mailto:wstanko@charter.net">wstanko@charter.net</a></h3>
           </li>
           <li className="footer-contact">
             <h3>Webdeveloper - Jason Whisnant 
