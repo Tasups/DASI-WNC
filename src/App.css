@@ -105,6 +105,8 @@ li {
   }
   .hamburger-nav {
     display: inline;
+    background-color: #121212;
+    color: var(--primary-darkmode-text);
   }
 }
 
