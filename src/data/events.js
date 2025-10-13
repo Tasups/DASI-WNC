@@ -7,7 +7,6 @@ const acts = [
     accessibility:
       "Accessible wheelchair/scooter seating and Listening Devices are available for all Mainstage performances.",
     contentAwareness: "This show is suitable for all audiences.",
-    theaterLink: "https://ashevilletheatre.org/",
   },
   {
     playName: "RENT",
@@ -19,7 +18,6 @@ const acts = [
       "Accessible wheelchair/scooter seating and Listening Devices are available for all Mainstage performances.",
     contentAwareness:
       "This show contains adult content, drug use, strong language, and period-specific references to the HIV/AIDS crisis.",
-    theaterLink: "https://ashevilletheatre.org/",
   },
   {
     playName: "Hello, Dolly!",
@@ -30,7 +28,6 @@ const acts = [
     accessibility:
       "Accessible wheelchair/scooter seating and Listening Devices are available for all Mainstage performances.",
     contentAwareness: "This show is suitable for all audiences.",
-    theaterLink: "https://ashevilletheatre.org/",
   },
   {
     playName: "In The Heights",
@@ -42,7 +39,6 @@ const acts = [
       "Accessible wheelchair/scooter seating and Listening Devices are available for all Mainstage performances.",
     contentAwareness:
       "This show contains strong language and themes of immigration, loss, and cultural identity.",
-    theaterLink: "https://ashevilletheatre.org/",
   },
 ];
   
