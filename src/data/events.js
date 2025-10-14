@@ -4,6 +4,7 @@ const acts = [
     playDate: "October thirty-first, 2025",
     description:
       "Get ready for a night of outrageous fun with The Rocky Horror Show! This cult classic musical takes innocent Brad and Janet on a journey as they stumble upon the mysterious castle of Dr. Frank-n-Furter, a mad scientist with a flair for the flamboyant. Featuring iconic songs like 'Time Warp' and 'Sweet Transvestite,' The Rocky Horror Show is an electrifying celebration of freedom, identity, and campy horror. This interactive performance invites audiences to participate by calling out iconic lines and engaging with the cast. For safety, ACT will provide interactive show kits for purchase to join in on the fun (outside kits are not permitted). Put on your fishnets, get ready to dance, and immerse yourself in this unforgettable late-night experience!",
+    runTime: "2 hours and 15 minutes with a 15 minute intermission",
     accessibility:
       "Accessible wheelchair/scooter seating and Listening Devices are available for all performances.",
     contentAwareness:
@@ -14,6 +15,7 @@ const acts = [
     playDate: "December twelvth and fourteenth, 2025",
     description:
       "The beloved TV classic soars off the screen and onto the stage! Join Rudolph, Hermey the Elf, Yukon Cornelius, and all your favorite characters as they come to life in this heartwarming holiday musical. Featuring iconic songs like “Holly Jolly Christmas” and “The Most Wonderful Day of the Year,” this show celebrates the 61st anniversary of the cherished Christmas special. Perfect for the whole family!",
+    runTime: "90 minutes with one 15-minute intermission.",
     accessibility:
       "Accessible wheelchair/scooter seating and Listening Devices are available for all Mainstage performances.",
     contentAwareness: "This show is suitable for all audiences.",
