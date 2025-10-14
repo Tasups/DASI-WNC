@@ -1,7 +1,17 @@
 const acts = [
   {
+    playName: "The Rocky Horror Show",
+    playDate: "October thirty-first, 2025",
+    description:
+      "Get ready for a night of outrageous fun with The Rocky Horror Show! This cult classic musical takes innocent Brad and Janet on a journey as they stumble upon the mysterious castle of Dr. Frank-n-Furter, a mad scientist with a flair for the flamboyant. Featuring iconic songs like 'Time Warp' and 'Sweet Transvestite,' The Rocky Horror Show is an electrifying celebration of freedom, identity, and campy horror. This interactive performance invites audiences to participate by calling out iconic lines and engaging with the cast. For safety, ACT will provide interactive show kits for purchase to join in on the fun (outside kits are not permitted). Put on your fishnets, get ready to dance, and immerse yourself in this unforgettable late-night experience!",
+    accessibility:
+      "Accessible wheelchair/scooter seating and Listening Devices are available for all performances.",
+    contentAwareness:
+      "Contains sexual themes, adult humor, and mild horror elements.",
+  },
+  {
     playName: "Rudolph The Red-Nosed Reindeer: The Musical",
-    playDate: "December twelvth and fourteenth",
+    playDate: "December twelvth and fourteenth, 2025",
     description:
       "The beloved TV classic soars off the screen and onto the stage! Join Rudolph, Hermey the Elf, Yukon Cornelius, and all your favorite characters as they come to life in this heartwarming holiday musical. Featuring iconic songs like “Holly Jolly Christmas” and “The Most Wonderful Day of the Year,” this show celebrates the 61st anniversary of the cherished Christmas special. Perfect for the whole family!",
     accessibility:
@@ -10,7 +20,7 @@ const acts = [
   },
   {
     playName: "RENT",
-    playDate: "February thirteenth and fifteenth",
+    playDate: "February thirteenth and fifteenth, 2026",
     description:
       "La Vie Bohème! Jonathan Larson’s Pulitzer Prize–winning musical follows a year in the life of young artists and friends struggling to create and survive in New York City under the shadow of the HIV/AIDS epidemic. With an iconic rock score including “Seasons of Love,” “Take Me or Leave Me,” and “La Vie Bohème,” RENT is a powerful, deeply human story that continues to move generations.",
     runTime: "2 hours and 20 minutes with one 15-minute intermission.",
@@ -21,7 +31,7 @@ const acts = [
   },
   {
     playName: "Hello, Dolly!",
-    playDate: "April seventeenth and nineteenth",
+    playDate: "April seventeenth and nineteenth, 2026",
     description:
       "It only takes a moment to fall in love with this classic musical comedy! Hello, Dolly! is the story of the irrepressible matchmaker Dolly Gallagher Levi, who is determined to find love for herself and others in 19th-century New York. With lavish costumes, spirited dance numbers, and an unforgettable score, “Put On Your Sunday Clothes”, “Before the Parade Passes By”, this Tony Award–winning hit is pure theatrical joy.",
     runTime: "2 hours and 30 minutes with one 15-minute intermission.",
