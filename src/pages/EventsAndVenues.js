@@ -51,7 +51,7 @@ const EventsAndVenues = () => {
             <div className="card">
               <li className="about-headers" key={event.playName}>
                 <span className="event-title">{event.playName}</span>
-                <span>, </span>
+                <span> | </span>
                 <span className="event-title">{event.playDate}</span>
                 <br></br>
                 <span className="event-info-header">Description: </span>

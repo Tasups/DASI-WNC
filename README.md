@@ -9,3 +9,4 @@
 ## Technologies used:
 
 ### HTML, CSS, JavaScript, React, Node, npm, react-router-dom, font-awesome.
+
