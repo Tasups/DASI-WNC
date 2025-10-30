@@ -58,9 +58,13 @@ const EventsAndVenues = () => {
                 <br></br>
                 <span className="event-info">{event.description}</span>
                 <br></br>
-                <span className="event-info-header">Pre-Show Description: </span>
+                <span className="event-info-header">
+                  Pre-Show Description:{" "}
+                </span>
                 <br></br>
-                <span className="event-info">{event.preShowDescLink}</span>
+                <span className="event-info">
+                  <a href={event.preShowDescLink}>{event.playName} pre-show description</a>
+                </span>
                 <br></br>
                 <span className="event-info-header">Run Time: </span>
                 <br></br>
