@@ -17,7 +17,8 @@ const acts = [
     playDate: "December twelvth and fourteenth, 2025",
     description:
       "The beloved TV classic soars off the screen and onto the stage! Join Rudolph, Hermey the Elf, Yukon Cornelius, and all your favorite characters as they come to life in this heartwarming holiday musical. Featuring iconic songs like “Holly Jolly Christmas” and “The Most Wonderful Day of the Year,” this show celebrates the 61st anniversary of the cherished Christmas special. Perfect for the whole family!",
-    preShowDescLink: "",
+    preShowDescLink:
+      "https://docs.google.com/document/d/1AzAjglFoDrCBEHxgXQQmFcSPivaM_WpI/edit",
     runTime: "90 minutes with one 15-minute intermission.",
     accessibility:
       "Accessible wheelchair/scooter seating and Listening Devices are available for all Mainstage performances.",
