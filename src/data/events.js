@@ -41,7 +41,7 @@ const acts = [
     playDate: "April seventeenth and nineteenth, 2026",
     description:
       "It only takes a moment to fall in love with this classic musical comedy! Hello, Dolly! is the story of the irrepressible matchmaker Dolly Gallagher Levi, who is determined to find love for herself and others in 19th-century New York. With lavish costumes, spirited dance numbers, and an unforgettable score, “Put On Your Sunday Clothes”, “Before the Parade Passes By”, this Tony Award–winning hit is pure theatrical joy.",
-    preShowDescLink: "",
+    preShowDescLink: "https://docs.google.com/document/d/1xIb1x30qh6iGD-jwW8uvIBgKMD8AMDJ8",
     runTime: "2 hours and 30 minutes with one 15-minute intermission.",
     accessibility:
       "Accessible wheelchair/scooter seating and Listening Devices are available for all Mainstage performances.",
